@@ -291,6 +291,14 @@ nav h1 {
     .home {
         margin-top: 200px;
     }
+
+    .footer_content_list {
+        margin-right: 15%;
+    }
+
+    .footer_content {
+        margin: 0 10%;
+    }
     
 }
 
@@ -322,6 +330,32 @@ nav h1 {
 
     div.offer_container_right > div > h4 {
         padding-bottom: 0px;
+    }
+
+    .footer_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40%
+    
+    }
+    .footer_content_list li {
+        color: gray;
+        font-size: 0.8rem;
+        line-height: 1rem;
+   
+    }
+
+    h5 {
+        font-size: 1rem; 
+    }
+    
+    .footer_section {
+        
+        height: 50vh;
+        width: 100vw;
+       
     }
 
     
