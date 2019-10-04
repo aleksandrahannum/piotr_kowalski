@@ -37,11 +37,15 @@ html {
     margin-left: 10%;
 }
 .logo img {
- width: 185px;
+ width: 260px;
 }
 .row {
     margin-right: 0px;
 }
+.navbar {
+    padding: 10px !important;
+}
+
 h2 {
     display: flex;
     justify-content: center;
@@ -67,12 +71,20 @@ h4 {
     padding-bottom: 30px;
 }
 
+h5 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgb(200, 208, 218);
+    font-weight: bold;
+}
+
 .main_kv {
     width: 100vw;
-    height: 100vh;
+    height: 74vh;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top:15%;
 }
 .main_kv {
     max-width: 1440px;
@@ -118,6 +130,25 @@ nav h1 {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(200, 208, 218);
+}
+
+.home {
+    margin-top: 400px;
+}
+
+.home_content_container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.home_content {
+    width: 70%;
+    text-align: center;
+}
+
+.home_content p {
+    font-size: 20px;
 }
 
 .offer {
@@ -204,32 +235,97 @@ nav h1 {
 
 .footer_section {
     width: 100vw;
-    height: 80px;
+    height: 30vh;
     background-color: #032a5d;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .footer_content {
-    width: 80%;
+    width: 100%;
 }
-.footer_content ul {
+.footer_content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }
 
-.footer_content ul li {
-    line-height: 1rem;
+
+
+.footer_content_list li {
+    color: gray;
+    font-size: 1rem;
+    line-height: 1.5rem;
     text-decoration: none;
     list-style-type: none;
-    color: white;
 }
 
 
 
 
+@media (max-width: 1024px) {
+    .navbar_list .navbar_list_item {
+        padding: 0px 0px 0 10px;
+    }
+    div.offer_container_right > div > h4 {
+        padding-bottom: 33px;
+    }
+
+    h4 {
+        margin: 0px 0px;
+    }
+
+    .main_kv {
+       
+       height: 33vh;
+    }
+    .items_list_left, 
+    .items_list_right {
+        margin: 0;
+    }
+    .service_content_li{
+        width: 150px;
+    }
+
+    .home {
+        margin-top: 200px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+
+    .home {
+        margin-top: 100px;
+    }
+
+    .home_content {
+        width: 95%;
+        text-align: center;
+    }
+    .service_content_li{
+        width: 150px;
+    }
+    .wrapper_item {
+        margin: 10px 7px;
+    }
+
+    .main_kv {
+        margin-top: 8%;
+        height: 25vh;
+    }
+
+    h4 {
+        margin: 0 15px;
+    }
+
+    div.offer_container_right > div > h4 {
+        padding-bottom: 0px;
+    }
+
+    
+}
 
 
 
