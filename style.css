@@ -234,7 +234,7 @@ nav h1 {
 }
 
 .footer_section {
-    width: 100vw;
+   
     height: 30vh;
     background-color: #032a5d;
     display: flex;
@@ -298,6 +298,28 @@ nav h1 {
 
     .footer_content {
         margin: 0 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40%
+    
+    }
+    .footer_content_list li {
+        color: gray;
+        font-size: 0.8rem;
+        line-height: 1rem;
+   
+    }
+    h5 {
+        font-size: 1rem; 
+    }
+    
+    .footer_section {
+        
+        height: 50vh;
+        width: 100vw;
+       
     }
     
 }
